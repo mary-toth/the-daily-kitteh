@@ -17,13 +17,14 @@ body {
   justify-content: center;
   min-height: 50px;
   padding: 1px;
-  font-family: 'Times New Roman', serif;
+  font-family: 'Georgia', serif;
   font-size: 50px;
-  font-weight: lighter;
+  font-weight: normal;
   color: rgb(78, 95, 113);
 }
 ul.header-stuff {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
   background-color: rgb(84, 196, 217);
@@ -55,6 +56,25 @@ ul.header-stuff {
   padding: 6px;
 }
 
+ul.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(216, 216, 216);
+  justify-content: center;
+  list-style-type: none;
+
+  /* height: 50px; */
+}
+
+.subscribe {
+  padding: 16px;
+}
+.editors {
+  padding: 16px;
+}
+.send {
+  padding: 16px;
+}
 /* header {
   display: flex;
   justify-content: center;
@@ -85,6 +105,14 @@ ul.header-stuff {
   background-color: green;
 }  */
 
-a {
+a.link-1,
+.link-2,
+.link-3,
+.link-4 {
   color: white;
+}
+a.link-5,
+.link-6,
+.link-7 {
+  color: black;
 }
