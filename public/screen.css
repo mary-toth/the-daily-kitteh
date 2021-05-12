@@ -12,6 +12,8 @@ body {
   background-color: rgb(229, 243, 242);
 }
 
+/* HEADER */
+
 .title {
   display: flex;
   justify-content: center;
@@ -56,6 +58,8 @@ ul.header-stuff {
   padding: 6px;
 }
 
+/* FOOTER  */
+
 ul.footer-list {
   display: flex;
   flex-wrap: wrap;
@@ -85,11 +89,10 @@ a.link-5,
   color: black;
 }
 
-/* *********** BODY ************* */
+/* BODY  */
 
 .parent {
   display: flex;
-  /* border: solid; */
   justify-content: space-evenly;
 }
 
@@ -118,7 +121,6 @@ h3 {
   font-size: 1.34rem;
 }
 div.child2 {
-  /* border: solid; */
   min-width: 500px;
   min-height: 300px;
   margin-top: 4px;
@@ -133,18 +135,6 @@ div.child2 {
   font-family: 'Arial', sans-serif;
 }
 
-.spot {
-  /* border: solid; */
-}
-.adeline {
-  /* border: solid; */
-}
-.perspex {
-  /* border: solid; */
-}
-.grumpy {
-  /* border: solid; */
-}
 img.pic {
   width: 190px;
   height: 200px;
