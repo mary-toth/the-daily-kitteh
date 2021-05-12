@@ -27,6 +27,7 @@ body {
 ul.header-stuff {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 1px;
   justify-content: center;
   list-style-type: none;
   background-color: rgb(84, 196, 217);
@@ -111,25 +112,29 @@ h2 {
   color: rgb(78, 95, 113);
   font-weight: bold;
   font-family: 'Arial', sans-serif;
+  margin-bottom: 1px;
+  margin-top: 20px;
 }
 
 h3 {
   color: rgb(78, 95, 113);
   margin-top: 1px;
-  margin-left: 5px;
+  margin-left: 7px;
   font-family: 'Arial', sans-serif;
   font-size: 1.34rem;
 }
 div.child2 {
   min-width: 500px;
   min-height: 300px;
-  margin-top: 4px;
   margin-bottom: 4px;
   margin-left: 15px;
   margin-right: 50px;
   flex-grow: 1;
 }
 
+p.first-p {
+  margin-top: 13px;
+}
 .child2 {
   line-height: 1.4;
   font-family: 'Arial', sans-serif;
