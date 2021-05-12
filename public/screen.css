@@ -62,8 +62,6 @@ ul.footer-list {
   background-color: rgb(216, 216, 216);
   justify-content: center;
   list-style-type: none;
-
-  /* height: 50px; */
 }
 
 .subscribe {
@@ -75,36 +73,6 @@ ul.footer-list {
 .send {
   padding: 16px;
 }
-/* header {
-  display: flex;
-  justify-content: center;
-  border: solid;
-}
-
-/* li parent */
-/* .header-stuff {
-  display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
-  margin: 0 450px;
-  background-color: #a6a6e4; */
-/* } */
-/* li child .header-stuff li {
-  list-style: none;
-  width: 500px;
-  text-align: center;
-  margin: 0 1px;
-} */
-
-/* .footer-stuff {
-  display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
-}
-.li-1 {
-  background-color: green;
-}  */
-
 a.link-1,
 .link-2,
 .link-3,
@@ -115,4 +83,70 @@ a.link-5,
 .link-6,
 .link-7 {
   color: black;
+}
+
+/* *********** BODY ************* */
+
+.parent {
+  display: flex;
+  /* border: solid; */
+  justify-content: space-evenly;
+}
+
+div.child1 {
+  border: solid;
+  border-color: rgb(84, 196, 217);
+  border-width: 1px;
+  margin: 20px;
+  height: 360px;
+  min-width: 200px;
+  line-height: 1.2em;
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  color: rgb(78, 95, 113);
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+}
+
+h3 {
+  color: rgb(78, 95, 113);
+  margin-top: 1px;
+  margin-left: 5px;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.34rem;
+}
+div.child2 {
+  /* border: solid; */
+  min-width: 500px;
+  min-height: 300px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 15px;
+  margin-right: 50px;
+  flex-grow: 1;
+}
+
+.child2 {
+  line-height: 1.4;
+  font-family: 'Arial', sans-serif;
+}
+
+.spot {
+  /* border: solid; */
+}
+.adeline {
+  /* border: solid; */
+}
+.perspex {
+  /* border: solid; */
+}
+.grumpy {
+  /* border: solid; */
+}
+img.pic {
+  width: 190px;
+  height: 200px;
+  margin: 5px;
 }
