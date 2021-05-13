@@ -61,12 +61,23 @@ ul.header-stuff {
 
 /* FOOTER  */
 
-ul.footer-list {
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100;
+}
+
+.footer-list {
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(216, 216, 216);
   justify-content: center;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100;
 }
 
 .subscribe {
@@ -78,6 +89,7 @@ ul.footer-list {
 .send {
   padding: 16px;
 }
+
 a.link-1,
 .link-2,
 .link-3,
